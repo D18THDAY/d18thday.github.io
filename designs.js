@@ -9,15 +9,20 @@ var cells = $(".cells");
 
 function makeGrid(column,row) {
 
-    for (y=0; y<column; ++y){
+        if (column>50||row>50){
+            alert("Size too large, choose smaller size(50 by 50 maximum)")
+        } else{
 
-        tableCanvas.append("<tr></tr>");
-    
-    }//draws the height of the grid
+            for (y=0; y<column; ++y){
 
-    for (x=0; x<row; ++x){
-        $("tr").append("<td class='cells'></td>");
-    }// adds some width to the grid
+                tableCanvas.append("<tr></tr>");
+
+            }//draws the height of the grid
+
+                for (x=0; x<row; ++x){
+                    $("tr").append("<td class='cells'></td>");
+                }// adds some width to the grid
+        }
     
 }
 
