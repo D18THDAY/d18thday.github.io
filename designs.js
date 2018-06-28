@@ -47,7 +47,15 @@ $("#sizePicker").submit(function(event){
     $('.cells').click(function(event){
         `     `
         color = $('#colorPicker').val(); //set the colour selection tool
-        $(event.target).css('background-color',color )
+            
+        if ($(event.target).attr('style')){
+                
+            $(event.target).removeAttr('style')
+                
+        }else 
+            {
+            $(event.target).css('background-color',color )
+            }
 
     });
 
