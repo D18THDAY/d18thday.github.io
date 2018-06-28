@@ -1,8 +1,6 @@
 # Pixel Art Maker Project
 
-https://github.com/D18THDAY/d18thday.github.io/blob/master/designs.js
-https://github.com/D18THDAY/d18thday.github.io/blob/master/index.html
-https://github.com/D18THDAY/d18thday.github.io/blob/master/styles.css
+https://d18thday.github.io/
 
 ## Table of Contents
 
