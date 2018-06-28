@@ -1,15 +1,16 @@
 body {
     text-align: center;
-    background-color: rgb(142, 142, 168);
+    background-color: beige;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 70px;
     margin: 0.2em;
 }
 
-h2 {
+h2, h3 {
+    font-style: italic;
     margin: 1em 0 0.25em;
 }
 
@@ -39,4 +40,34 @@ td {
 
 input[type=number] {
     width: 6em;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    grid-gap: 5px;
+}
+
+.header{
+    background-color:wheat;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+.options{
+    background-color:tan;
+    grid-column: 1 / 3;
+    grid-row: 2 / -1;
+}
+
+.main{
+    grid-column: 3 / -1;
+    grid-row: 2 / -1;
+}
+
+.footer{
+    background-color: wheat;
+    grid-column: 1 / -1;
 }
