@@ -78,10 +78,9 @@ input[type=number] {
 }
 
 .button{
-        display: inline-block;
-        cursor: pointer;
         text-align: center;
         text-decoration: none;
+        cursor: pointer;
         background-color: black;
         outline: none;
         color: #fff;
@@ -93,7 +92,7 @@ input[type=number] {
       .button:hover {background-color: black}
       
       .button:active {
-        background-color: black;
         box-shadow: 0 0px #fff;
+        background-color: black;
         transform: translateY(4px);
       }
