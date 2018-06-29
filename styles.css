@@ -86,9 +86,9 @@ input[type=number] {
         box-shadow: 0 5px #fff;
       }
       
-.button:hover {background-color: black}
+      .button:hover {background-color: black}
       
-.button:active {
+      .button:active {
         background-color: black;
         box-shadow: 0 0px #fff;
         transform: translateY(4px);
