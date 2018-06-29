@@ -72,3 +72,24 @@ input[type=number] {
     background-color: wheat;
     grid-column: 1 / -1;
 }
+
+.button{
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        background-color: black;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 5px #fff;
+      }
+      
+.button:hover {background-color: black}
+      
+.button:active {
+        background-color: black;
+        box-shadow: 0 0px #fff;
+        transform: translateY(4px);
+      }
